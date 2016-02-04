@@ -1,0 +1,45 @@
+#profile_pic{
+    width: 200px;
+    border-radius: 80%;
+    webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border: 8px solid #fff;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background: url(img/header_bg_3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.navbar {
+    background:#fff;
+    color: #555F6B;
+}
+.navbar-fixed-top{
+    padding: 15px 0;
+}
+.navbar-fixed-top .navbar-brand{
+    color: #233140;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #233140;
+
+}
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 5px;
+    padding-bottom: .5em;
+    border: 1px solid #eee; 
+}
+
+footer .footer-below{
+    background: #555F6B;
+}

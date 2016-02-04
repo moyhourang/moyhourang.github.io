@@ -155,6 +155,7 @@ header .intro-text .skills {
 
 .navbar a:focus {
     outline: 0;
+    background-color: #88919b;
 }
 
 .navbar .navbar-nav {
@@ -265,7 +266,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color. primary-rgb }};
     background: #fff;
 }
 
@@ -453,4 +454,10 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+#porfile_pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
