@@ -1,5 +1,5 @@
-#profile_pic{
-    width: 200px;
+.profile_pic{
+    width:150px;
     border-radius: 80%;
     webkit-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -37,7 +37,7 @@ header .intro-text .skills {
     position: relative;
     margin-bottom: 5px;
     padding-bottom: .5em;
-    border: 1px solid #eee; 
+    border: 1px solid #eee;
 }
 
 footer .footer-below{
