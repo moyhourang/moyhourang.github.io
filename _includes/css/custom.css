@@ -9,9 +9,11 @@
 header {
     text-align: center;
     color: #fff;
-    background: url(img/header_bg_3.jpg);
+    background: url(img/header_bg_3.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center center;
 }
 header .intro-text .skills {
     font-size: 1.25em;
@@ -24,7 +26,8 @@ header .intro-text .skills {
     color: #555F6B;
 }
 .navbar-fixed-top{
-    padding: 15px 0;
+    padding: 5px 0;
+    margin-bottom: 10px;
 }
 .navbar-fixed-top .navbar-brand{
     color: #233140;
@@ -32,6 +35,9 @@ header .intro-text .skills {
 .navbar-default .navbar-nav>li>a{
     color: #233140;
 
+}
+.text-skills{
+    color: #{{ site.color.primary }};
 }
 .floating-label-form-group {
     position: relative;
