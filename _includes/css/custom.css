@@ -23,22 +23,27 @@ header .intro-text .skills {
     letter-spacing: 7px;
 }
 .navbar {
-    background:#fff;
+    background:transparent;
+    border-bottom:1px solid #999;
     color: #555F6B;
 }
 .navbar-fixed-top{
     padding: 5px 0;
     margin-bottom: 10px;
 }
+.navbar-fixed-top.navbar-shrink {
+    padding: 10px 0;
+    background: #fff;
+    border:none;
+}
 .navbar-fixed-top .navbar-brand{
-    color: #233140;
+    color: #4c7093;
 }
 .navbar-default .navbar-nav>li>a{
-    color: #233140;
-
+    color: #4c7093;
 }
-.text-skills{
-    color: #{{ site.color.primary }};
+.navbar-toggle{
+    background: #4c7093;
 }
 .skill-items{
     margin-top:30px;
