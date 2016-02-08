@@ -23,9 +23,8 @@ header .intro-text .skills {
     letter-spacing: 7px;
 }
 .navbar {
-    background:transparent;
-    border-bottom:1px solid #999;
     color: #555F6B;
+    background-color: rgba(49, 57, 75, 0.6);
 }
 .navbar-fixed-top{
     padding: 5px 0;
@@ -33,14 +32,13 @@ header .intro-text .skills {
 }
 .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
-    background: #fff;
-    border:none;
+    background-color: rgba(49, 57, 75, 0.6);
 }
 .navbar-fixed-top .navbar-brand{
-    color: #4c7093;
+    color: #fff;
 }
 .navbar-default .navbar-nav>li>a{
-    color: #4c7093;
+    color: #fff;
 }
 .navbar-toggle{
     background: #4c7093;
