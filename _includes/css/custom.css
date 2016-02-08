@@ -53,10 +53,12 @@ header .intro-text .skills {
     padding-bottom: 20px;
 }
 form .floating-label-form-group{
-    border-bottom: 1px solid #999;
+    border: 1px solid #204872;
+    border-radius: 5px;
+    margin-bottom:5px;
 }
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #999;
+    border: 1px solid #204872;
 }
 footer .footer-below{
     background: #555F6B;
