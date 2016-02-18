@@ -5,7 +5,6 @@
     -ms-border-radius: 50%;
     border: 8px solid #fff;
 }
-
 header {
     text-align: center;
     color: #fff;
@@ -41,7 +40,7 @@ header .intro-text .skills {
     margin-bottom: 10px;
 }
 .navbar-fixed-top.navbar-shrink {
-    padding: 10px 0;
+    padding: 7px 0;
     background-color: rgba(49, 57, 75, 0.6);
 }
 .navbar-fixed-top .navbar-brand{
@@ -53,6 +52,13 @@ header .intro-text .skills {
 .navbar-toggle{
     background: #4c7093;
 }
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #204872;
+}
 .skill-items{
     margin-top:30px;
 }
@@ -62,14 +68,42 @@ header .intro-text .skills {
     color:#999;
     padding-bottom: 20px;
 }
+#about{
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+#portfolio{
+    padding-top: 100px;
+}
+#contact{
+    padding-top: 75px;
+}
 form .floating-label-form-group{
     border: 1px solid #204872;
     border-radius: 5px;
-    margin-bottom:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom:10px;
 }
 form .row:first-child .floating-label-form-group {
     border: 1px solid #204872;
 }
 footer .footer-below{
     background: #555F6B;
+}
+@media(max-width:766px) {
+    .container>.navbar-header{
+        background-color: rgba(49, 57, 75, 0.6);
+    }
+    .navbar-fixed-top {
+        padding: 0 0;
+    }
+    .navbar-fixed-top.navbar-shrink {
+        padding: 0 0;
+        background-color: rgba(49, 57, 75, 0.6);
+    }
+    #bs-example-navbar-collapse-1 {
+        background-color: rgba(49, 57, 75, 0.6);
+    }
 }
