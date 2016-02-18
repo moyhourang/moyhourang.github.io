@@ -3,10 +3,10 @@ layout: default
 modal-id: 1
 date: 206-02-06
 img: creata_admin.png
-alt: Creata Dashboard
+alt: RITTERSPORT ADMIN DASHBOARD
 project-date: January 2016
-project-title: RitterSpot Dashboard
+project-title: RITTERSPORT ADMIN DASHBOARD
 client: CREATA
 category: Web Development
-description: This is a collaborated PHP project that I have worked with my coworker at Avacas Company in Cambodia for our client in Gemany. We have created this dashboard from scratch by using HTML5, CSS, Javascrip, Jquery, Bootstrap, PHP based on Codeigniter framwork and MySql for database.
+description: This PHP project was a collaboration I worked on with a coworker at Avacas Cambodia for our client in Germany. We have created this dashboard from scratch using HTML5, CSS3, JavaScript, jQuery, Bootstrap, CodeIgniter (PHP) and the MySQL database. This dashboard is used to add, edit, delete users and pages, activate and deactivate code, and also report all the users activities from both admin dashboard website and rittersport website.
 ---
