@@ -107,3 +107,8 @@ footer .footer-below{
         background-color: rgba(49, 57, 75, 0.6);
     }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .skill-items{
+        margin-left: 50px;
+    }
+}
